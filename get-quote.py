@@ -9,7 +9,8 @@ def primary():
   last  = len(quotes) - 1
   rnd = random.randint(0, last)
   #print(rnd)
-  print(quotes[rnd])
+  print(quotes[rnd], quotes[random.randint(0, last)])
+  
   #print(quotes)
   
 
